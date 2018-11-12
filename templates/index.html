@@ -19,37 +19,38 @@
 </head>
 
 <body>
-  <div class="ui inverted vertical masthead center aligned segment">
 
+  <div class="ui fixed inverted menu">
     <div class="ui container">
-      <div class="ui large secondary inverted pointing menu">
-        <a class="active item">Home</a>
-        <div class="right item">
-          <a id="login" class="ui inverted button">Log in</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="ui text container">
-      <h1 class="ui inverted header">
+      <a href="#" class="header item">
+        <img class="logo" src="../static/img/go.jpg">
         CloudGo-IO
-      </h1>
-      <h2>Sample Go Web Application.</h2>
+      </a>
+      <a href="#" class="item">Index</a>
     </div>
   </div>
 
-  <div class="ui vertical segment">
-    <div class="info">
-      <p class="author">Author:</p>
-      <p class="contact">Contact:</p>
-    </div>
-    <img class="ui centered disabled medium image" src="../static/img/go.jpg">
+  <div class="ui main text container">
+    <h1 class="ui header">CloudGo-IO Index Template</h1>
+    <table class="ui celled table">
+      <thead>
+        <tr class="center aligned">
+          <th>Email</th>
+          <th>Password</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="center aligned">
+          <td>{{.Email}}</td>
+          <td>{{.Password}}</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
-
 </body>
 
 <!-- Custom Library -->
-<link href="../static/css/home.css" rel="stylesheet">
-<script src="../static/js/home.js"></script>
+<link href="../static/css/index.css" rel="stylesheet">
+<script src="../static/js/index.js"></script>
 
 </html>

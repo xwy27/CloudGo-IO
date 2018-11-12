@@ -1,9 +1,16 @@
+// set author name and contact info from server
 $(document).ready(() => {
   $.ajax({
-    url: '/api/id',
+    url: '/api/info',
     data: '',
     type: 'GET',
   }).then((res) => {
-    $('.id').append(res.id);
+    $('.author').append(res.author);
+    $('.contact').append(res.contact);
   });
+});
+
+// login button
+$('#login').on('click', () => {
+  window.location.href = '/login';
 });

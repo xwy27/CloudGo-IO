@@ -34,12 +34,13 @@ func initRouter(router *mux.Router, render *render.Render) {
 	}
 
 	// path router
-	router.HandleFunc("/home", xrouter.HomeHandler(render))
 	router.HandleFunc("/", xrouter.HomeHandler(render))
-	// TODO: login
+	router.HandleFunc("/home", xrouter.HomeHandler(render))
+	router.HandleFunc("/login", xrouter.LoginHandler(render))
+	router.HandleFunc("/index", xrouter.LoginHandler(render))
 
 	// Api router
-	// router.HandleFunc("/api/id", xrouter.HomeHandler(render))
+	router.HandleFunc("/api/info", xrouter.InfoHandler(render))
 
 	// Static file router
 	router.PathPrefix("/templates").Handler(
