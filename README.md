@@ -14,7 +14,7 @@ Service Computing Course homework: CloudGo-IO, simple web serving program based 
 
 ## Project Structure
 
-```python
+```
 |-- CloudGo-IO
     |-- main.go
     |-- router
@@ -50,16 +50,16 @@ Service Computing Course homework: CloudGo-IO, simple web serving program based 
 ## Test and Result
 
 1. Static file access
-    ![staticFileAccess](./readme_img/static.jpg)
+    ![staticFileAccess](./readme_img/static.JPG)
 1. JS request and json response
-    ![jsRequest](./readme_img/jsRequest.jpg)
+    ![jsRequest](./readme_img/jsRequest.JPG)
 1. Form submit
     - 表单填写
-      ![formInput](./readme_img/login.jpg)
+      ![formInput](./readme_img/login.JPG)
     - 表单结果
-      ![formResult](./readme_img/login_result.jpg)
+      ![formResult](./readme_img/login_result.JPG)
 1. Developing notification
-    ![Developing](./readme_img/unknown.jpg)
+    ![Developing](./readme_img/unknown.JPG)
 
 ## Summary
 
