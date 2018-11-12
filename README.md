@@ -41,6 +41,8 @@ Service Computing Course homework: CloudGo-IO, simple web serving program based 
         |-- login.html
 ```
 
+### Structure Analysis
+
 1. main.go 程序主入口，可设置监听端口
 1. router 路由文件，存储路由函数，所有路由函数导出至router 包
 1. service 服务器配置函数，设置中间件参数和服务器参数
@@ -50,16 +52,25 @@ Service Computing Course homework: CloudGo-IO, simple web serving program based 
 ## Test and Result
 
 1. Static file access
+
     ![staticFileAccess](./readme_img/static.JPG)
 1. JS request and json response
+
     ![jsRequest](./readme_img/jsRequest.JPG)
 1. Form submit
+
     - 表单填写
       ![formInput](./readme_img/login.JPG)
     - 表单结果
       ![formResult](./readme_img/login_result.JPG)
 1. Developing notification
+
     ![Developing](./readme_img/unknown.JPG)
+
+## Code Analysis
+
+Waiting
+(Beautiful 501 page is under Developing)
 
 ## Summary
 
