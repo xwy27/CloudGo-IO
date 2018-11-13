@@ -5,12 +5,14 @@ Service Computing Course homework: CloudGo-IO, simple web serving program based 
 ## External Source Library
 
 - Server-end
-  [Negroni](https://github.com/urfave/negroni), customed server
-  [Gorilla/mux](https://github.com/urfave/negroni), custom router
-  [Render](https://github.com/unrolled/render/), custom data render for router handler
+
+  - [Negroni](https://github.com/urfave/negroni), customed server
+  - [Gorilla/mux](https://github.com/urfave/negroni), custom router
+  - [Render](https://github.com/unrolled/render/), custom data render for router handler
 - Front-end
-  [jQuery](https://api.jquery.com/), friendly `javascript` DOM operation library
-  [Semantic](https://semantic-ui.com/), almostly only `css` library
+
+  - [jQuery](https://api.jquery.com/), friendly `javascript` DOM operation library
+  - [Semantic](https://semantic-ui.com/), almostly only `css` library
 
 ## Project Structure
 
@@ -60,8 +62,10 @@ Service Computing Course homework: CloudGo-IO, simple web serving program based 
 1. Form submit
 
     - 表单填写
+    
       ![formInput](./readme_img/login.JPG)
     - 表单结果
+    
       ![formResult](./readme_img/login_result.JPG)
 1. Developing notification
 
