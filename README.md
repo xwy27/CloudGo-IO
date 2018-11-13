@@ -55,26 +55,25 @@ Service Computing Course homework: CloudGo-IO, simple web serving program based 
 
 1. Static file access
 
-    ![staticFileAccess](./readme_img/static.JPG)
+    ![staticFileAccess](./README/static.jpg)
 1. JS request and json response
 
-    ![jsRequest](./readme_img/jsRequest.JPG)
+    ![jsRequest](./README/jsRequest.jpg)
 1. Form submit
 
     - 表单填写
-    
-      ![formInput](./readme_img/login.JPG)
+
+      ![formInput](./README/login.jpg)
     - 表单结果
-    
-      ![formResult](./readme_img/login_result.JPG)
+
+      ![formResult](./README/login_result.jpg)
 1. Developing notification
 
-    ![Developing](./readme_img/unknown.JPG)
+    ![Developing](./README/unknown.jpg)
 
 ## Code Analysis
 
-Waiting
-(Beautiful 501 page is under Developing)
+[Code Analysis](./README/CodeAnalysis.md)
 
 ## Summary
 
